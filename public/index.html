@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ff33c4">
+  <meta name="description" content="重女判定表。30 个恋爱情境，看看哪些让你开心，哪些让你觉得沉重。支持简体中文与日语、自动保存和图片导出。">
+  <title>重女判定表 / これって重い？判定シート</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./data.js" defer></script>
+  <script src="./images.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">跳到问卷 / 質問へ</a>
+  <div id="root"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="reset-dialog" aria-labelledby="reset-title">
+    <h2 id="reset-title"></h2>
+    <p id="reset-description"></p>
+    <form method="dialog" class="dialog-actions">
+      <button id="cancel-reset" class="button secondary" value="cancel"></button>
+      <button id="confirm-reset" class="button primary" value="reset"></button>
+    </form>
+  </dialog>
+  <noscript><p class="noscript">请启用 JavaScript 后填写问卷。JavaScript を有効にしてください。</p></noscript>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "omonna-sheet",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check public/data.js && node --check public/images.js && node --check public/app.js"
+  },
+  "engines": { "node": ">=20" }
+}
